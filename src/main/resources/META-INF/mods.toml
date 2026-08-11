@@ -1,0 +1,12 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+
+[[mods]]
+modId="bigstack"
+version="1.0.0"
+displayName="Big Stack"
+description="Makes stack size 32-bit integer, with abbreviations."
+authors=["You"]
+
+[[mixins]]
+config="bigstack.mixins.json"
